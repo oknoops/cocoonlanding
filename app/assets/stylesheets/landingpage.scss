@@ -1,3 +1,32 @@
 // Place all the styles related to the landingpage controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+h1{
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+}
+
+.container-fullscreen{
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.logo-cocoon{
+  width: 500px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.text-comingsoon{
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
